@@ -1,0 +1,1069 @@
+[
+  {
+    "id": 32137157,
+    "title": "No \"Maker\" Auth for run-time",
+    "type": "Feature",
+    "current_state": "Committed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-04-03T14:20:26.053Z",
+    "created_by": "Graham Mosley",
+    "description": "<div>Allow blocking of maker auth to be inherited to end-user run-time.&nbsp; :<br> </div><div><br><br> </div><div> </div><div>Eng work in Erez - Gov area path<br><a href=\"https://msazure.visualstudio.com/CCI/_workitems/edit/29909189\" tabindex=0 style=\"box-sizing:border-box;border-radius:2px;cursor:pointer;outline:transparent;text-decoration:underline;transition:color 80ms cubic-bezier(0.165, 0.84, 0.44, 1), background 80ms linear;\">Feature 29909189</a><span style=\"display:inline !important;\">: [Admin &amp; Governance] Admin can block 'use maker auth'<br></span><br><p style=\"margin:0in;font-size:12pt;font-family:Calibri, sans-serif;\"><span style=\"font-size:11.0pt;\"><a href=\"https://microsoft-my.sharepoint.com/:w:/p/arjunmayur/Eed1eGnC5aBBno32Gz9LE_cBJIz1z4nXQBZ25eXKlypYnA?e=7E9lt5\"><span style=\"color:blue;background:rgb(243, 242, 241);text-decoration:underline;\">PM spec</span></a>, <a href=\"https://microsoft-my.sharepoint.com/:w:/p/arjunmayur/EaigarCjt9JHtJlF5Pnm5LYB0Hi9lcNDGMuHiy_NE1M_DA?e=pVq3bo\">remaining\nwork</a></span> </p><br> </div>",
+    "assigned_to": "Bhargav Kansagara",
+    "assigned_date": "2025-04-23T06:57:56.393Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "31877616",
+      "32137242"
+    ],
+    "child_links_added": [
+      "32317259",
+      "32317403",
+      "32317425",
+      "32317439",
+      "32438743",
+      "32438903",
+      "32606977",
+      "32620766",
+      "33239250",
+      "33485279"
+    ],
+    "tags_added": [
+      "IDC"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Committed",
+        "date": "2025-04-23T06:57:56.393Z"
+      }
+    ]
+  },
+  {
+    "id": 32317403,
+    "title": "Runtime Enforcement for blocking maker credential",
+    "type": "User Story",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-04-15T08:28:37.57Z",
+    "created_by": "Prashant Verma",
+    "description": "",
+    "assigned_to": "Prashant Verma",
+    "assigned_date": "2025-04-23T07:00:59.213Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32137157"
+    ],
+    "child_links_added": [
+      "32903161",
+      "33257067",
+      "33337754",
+      "33337748",
+      "33407547",
+      "33472076"
+    ],
+    "tags_added": [
+      "May2025",
+      "IDC",
+      "Jun2025"
+    ],
+    "comments_added": [
+      {
+        "date": "2025-05-05T06:35:00.703Z",
+        "author": "Bhargav Kansagara",
+        "comment": "<div><span style=\"font-size:15px;background-color:rgb(50, 49, 48);display:inline !important;\">Pinged a lot of folks to get some pointers to get all interactions with the auth services, but haven't found anything concrete.</span><br></div>"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-05-16T12:05:15.623Z"
+      }
+    ]
+  },
+  {
+    "id": 32606977,
+    "title": "[Build] Code editor to be blocked entirely if the \u201cno c1 auth\u201d option has been enabled",
+    "type": "User Story",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "2025-05-30T00:00:00Z",
+    "created_date": "2025-04-28T16:14:27.107Z",
+    "created_by": "Manu Sreenivasan",
+    "description": "<div><ul><li>Identify the areas in ObjectModel to add validation </li><li>Implement and test the validation (in progress) </li> </ul> </div>",
+    "assigned_to": "Bhargav Kansagara",
+    "assigned_date": "2025-05-06T05:59:01.76Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32137157"
+    ],
+    "child_links_added": [
+      "32751710",
+      "33070778",
+      "33239270"
+    ],
+    "tags_added": [
+      "IDC"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-05-06T06:01:32.223Z"
+      }
+    ]
+  },
+  {
+    "id": 32621612,
+    "title": "Privacy URL - Implementation",
+    "type": "User Story",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "2025-06-30T00:00:00Z",
+    "created_date": "2025-04-29T07:41:27.683Z",
+    "created_by": "Pradyum Bansal",
+    "description": "",
+    "assigned_to": "Pradyum Bansal",
+    "assigned_date": "2025-04-29T07:44:54.66Z",
+    "original_estimate": 10.0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32169035"
+    ],
+    "child_links_added": [
+      "32611540",
+      "32751603",
+      "32783559",
+      "33033974",
+      "33105954",
+      "33105993",
+      "33565912"
+    ],
+    "tags_added": [
+      "IDC"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Committed",
+        "date": "2025-05-07T21:43:50.793Z"
+      },
+      {
+        "from": "Committed",
+        "to": "Active",
+        "date": "2025-05-08T13:26:56Z"
+      }
+    ]
+  },
+  {
+    "id": 32751511,
+    "title": "Development Changes for Open Telemetry",
+    "type": "User Story",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-05-06T05:43:53.723Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-05-06T06:24:33.607Z",
+    "original_estimate": 8.0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32751392"
+    ],
+    "child_links_added": [
+      "32714872",
+      "32965122",
+      "32965141",
+      "32965150",
+      "32965157",
+      "33121779",
+      "33257043",
+      "33284791",
+      "33391453",
+      "33391457",
+      "33391459"
+    ],
+    "tags_added": [
+      "IDC"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-18T06:13:48.877Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "2025-06-23T12:44:58.37Z"
+      },
+      {
+        "from": "Closed",
+        "to": "Active",
+        "date": "2025-06-23T12:53:59.303Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 32751710,
+    "title": "Add validation in bot publish based on PPAC maker auth settings",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "2025-05-30T00:00:00Z",
+    "created_date": "2025-05-06T06:00:50.17Z",
+    "created_by": "Bhargav Kansagara",
+    "description": "<div><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Identify the areas in ObjectModel to add validation - PR complete </li><li style=\"box-sizing:border-box;\">Implement and test the validation (complete) </li><li style=\"box-sizing:border-box;\">Deploy (pending on testing locally and test tenant) - complete </li><li style=\"box-sizing:border-box;\">UI changes for WASM command validation pending </li> </ul><br> </div>",
+    "assigned_to": "Bhargav Kansagara",
+    "assigned_date": "2025-05-06T06:01:00.783Z",
+    "original_estimate": 10.0,
+    "remaining_work": 10.0,
+    "effort_time": 10.0,
+    "parents_link_added": [
+      "32606977"
+    ],
+    "child_links_added": [],
+    "tags_added": [
+      "IDC"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-05-06T06:01:20.47Z"
+      }
+    ]
+  },
+  {
+    "id": 32965150,
+    "title": "Get PR merged for a single service for OTel logging",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "2025-06-26T00:00:00Z",
+    "created_date": "2025-05-20T05:52:25.9Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-05-20T05:53:39.417Z",
+    "original_estimate": 16.0,
+    "remaining_work": 0,
+    "effort_time": 12.0,
+    "parents_link_added": [
+      "32751511"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-18T06:10:06.027Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33105993,
+    "title": "[Power Policy] Onboarding privacy disclosure message rule set (frontend)",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "2025-06-11T00:00:00Z",
+    "created_date": "2025-06-02T12:35:50.187Z",
+    "created_by": "Pradyum Bansal",
+    "description": "",
+    "assigned_to": "Lavisha Doda",
+    "assigned_date": "2025-06-02T12:36:04.067Z",
+    "original_estimate": 3.0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32621612"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-07T19:40:48.813Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33111162,
+    "title": "Process Data Job TotalSessions INT",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-02T17:53:27.74Z",
+    "created_by": "Arpit Verma",
+    "description": "",
+    "assigned_to": "Arpit Verma",
+    "assigned_date": "2025-06-02T17:53:30.097Z",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "effort_time": 10.0,
+    "parents_link_added": [
+      "32984100",
+      "33366443"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:48:31.583Z"
+      }
+    ]
+  },
+  {
+    "id": 33111172,
+    "title": "Aggregate Data Job TotalSessions INT",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-02T17:53:53.623Z",
+    "created_by": "Arpit Verma",
+    "description": "",
+    "assigned_to": "Arpit Verma",
+    "assigned_date": "2025-06-02T17:53:57.27Z",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "effort_time": 10.0,
+    "parents_link_added": [
+      "32984100",
+      "33366443"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:48:49.08Z"
+      }
+    ]
+  },
+  {
+    "id": 33239270,
+    "title": "PVA Solution Callbacks (notification) on setting change is not working and causing failure in their deployment",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-11T06:10:24.73Z",
+    "created_by": "Bhargav Kansagara",
+    "description": "",
+    "assigned_to": "Bhargav Kansagara",
+    "assigned_date": "2025-06-16T05:40:40.643Z",
+    "original_estimate": 20.0,
+    "remaining_work": 10.0,
+    "effort_time": 10.0,
+    "parents_link_added": [
+      "32606977"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-18T06:13:00.463Z"
+      }
+    ]
+  },
+  {
+    "id": 33256865,
+    "title": "Implementation: Use FE App Id to create trigger with OBO Auth",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T05:43:42.253Z",
+    "created_by": "Riya Arora",
+    "description": "",
+    "assigned_to": "Riya Arora",
+    "assigned_date": "2025-06-12T05:57:27.54Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 12.0,
+    "parents_link_added": [
+      "33256869"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-12T05:57:27.54Z",
+        "author": "Riya Arora",
+        "comment": "Copied from #32945209"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:47:44.643Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "2025-06-18T06:12:29.433Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33256867,
+    "title": "Implementation: Generate valid signature with private key",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T05:43:42.253Z",
+    "created_by": "Riya Arora",
+    "description": "<p>This is the new description via Python </p>",
+    "assigned_to": "Lavisha Doda",
+    "assigned_date": "2025-06-12T05:55:51.19Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "33256869"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-12T05:55:51.19Z",
+        "author": "Riya Arora",
+        "comment": "Copied from #32945221"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:47:50.523Z"
+      }
+    ]
+  },
+  {
+    "id": 33256868,
+    "title": "Implementation: Use BE App Id to invoke Controller API with S2S Auth",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T05:43:42.253Z",
+    "created_by": "Riya Arora",
+    "description": "",
+    "assigned_to": "Riya Arora",
+    "assigned_date": "2025-06-16T05:47:56.34Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "33256869"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-12T05:57:11.167Z",
+        "author": "Riya Arora",
+        "comment": "Copied from #32945213"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:47:56.34Z"
+      }
+    ]
+  },
+  {
+    "id": 33257016,
+    "title": "Explore Knowledge Sources in Code and Kusto Tables",
+    "type": "Task",
+    "current_state": "New",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T06:07:31.95Z",
+    "created_by": "Amita Pradhan",
+    "description": "",
+    "assigned_to": "Amita Pradhan",
+    "assigned_date": "2025-06-16T05:59:59.973Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32984100",
+      "32794766"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "9999-01-01T00:00:00Z",
+        "author": "Amita Pradhan",
+        "comment": "<span><p>PVA_AllOperationEvents(startDate=ago(1h), endDate=now())</p><p>| where activityName startswith &nbsp;&quot;AsyncOperationExecutor.&quot; or activityName startswith &quot;PowerVA.RuntimeService.KPI.&quot;</p><p>| extend KnowledgeSource=tostring(split(activityName, &quot;.&quot;)[-1])</p><p>| summarize count() by KnowledgeSource, resultType</p></span>"
+      }
+    ],
+    "state_changes": []
+  },
+  {
+    "id": 33257043,
+    "title": "Testing and Validating Telemetry logs in Dev environment",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T06:11:01.65Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-06-12T06:18:37.517Z",
+    "original_estimate": 13.0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32751511"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-18T06:09:41.687Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "2025-06-18T06:15:05.89Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33257067,
+    "title": "Review Design doc for MCS Stored Credentials",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-12T06:14:28.43Z",
+    "created_by": "Prashant Verma",
+    "description": "",
+    "assigned_to": "Prashant Verma",
+    "assigned_date": "2025-06-12T06:16:00.523Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32317403"
+    ],
+    "child_links_added": [],
+    "tags_added": [
+      "Jun2025"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:59:18.353Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33337748,
+    "title": "Spike: Pipeline for regression tests",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-16T05:50:15.46Z",
+    "created_by": "Riya Arora",
+    "description": "",
+    "assigned_to": "Riya Arora",
+    "assigned_date": "2025-06-16T05:53:51.18Z",
+    "original_estimate": 0,
+    "remaining_work": 12.0,
+    "effort_time": 12.0,
+    "parents_link_added": [
+      "33337756",
+      "32317403",
+      "33337756"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-16T05:53:51.18Z",
+        "author": "Riya Arora",
+        "comment": "Copied from #33256912"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T06:12:02.66Z"
+      }
+    ]
+  },
+  {
+    "id": 33337754,
+    "title": "Discuss with stakeholders and finalize on the runtime block approach",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-16T05:50:29.403Z",
+    "created_by": "Prashant Verma",
+    "description": "",
+    "assigned_to": "Prashant Verma",
+    "assigned_date": "2025-06-16T05:59:12.583Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32317403"
+    ],
+    "child_links_added": [],
+    "tags_added": [
+      "Jun2025"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-23T16:10:00.497Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33337756,
+    "title": "AA Regression testing - Pipeline Integration",
+    "type": "User Story",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-16T05:50:53.823Z",
+    "created_by": "Riya Arora",
+    "description": "",
+    "assigned_to": "Al Omar Rajawat",
+    "assigned_date": "2025-06-16T05:51:46.967Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [],
+    "child_links_added": [
+      "33337748",
+      "33337748"
+    ],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-16T05:51:46.967Z",
+        "author": "Riya Arora",
+        "comment": "Copied from #32945199"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 33337765,
+    "title": "Process Data Job - Active Users - [Blue Path] INT",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-16T05:51:58.957Z",
+    "created_by": "Arpit Verma",
+    "description": "",
+    "assigned_to": "Arpit Verma",
+    "assigned_date": "2025-06-16T05:52:03.653Z",
+    "original_estimate": 10.0,
+    "remaining_work": 3.0,
+    "effort_time": 8.0,
+    "parents_link_added": [
+      "32984100",
+      "33366424"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-16T05:52:03.653Z",
+        "author": "Arpit Verma",
+        "comment": "Copied from #33111162"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T05:53:25.357Z"
+      }
+    ]
+  },
+  {
+    "id": 33337780,
+    "title": "Source Stream Extension Jobs - Active Users [Blue Path] INT",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-16T05:53:01.46Z",
+    "created_by": "Arpit Verma",
+    "description": "",
+    "assigned_to": "Arpit Verma",
+    "assigned_date": "2025-06-16T05:53:06.12Z",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "effort_time": 10.0,
+    "parents_link_added": [
+      "32984100",
+      "33366424"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [
+      {
+        "date": "2025-06-16T05:53:06.12Z",
+        "author": "Arpit Verma",
+        "comment": "Copied from #33337765"
+      }
+    ],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-16T06:01:26.533Z"
+      }
+    ]
+  },
+  {
+    "id": 33391453,
+    "title": "Fixing Unit Test failure Pipeline Bug in PR pipeline",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-18T06:11:27.27Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-06-18T06:14:30.653Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32751511"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-25T06:03:07.823Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33391457,
+    "title": "Verifying OTelemetry logs in IDev environment",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-18T06:12:11.093Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-06-18T06:20:26.31Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32751511"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33391459,
+    "title": "Verifyin OTel logs scenarios in INT environment",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "2025-06-25T00:00:00Z",
+    "created_date": "2025-06-18T06:13:02.673Z",
+    "created_by": "Abhishek Khatri",
+    "description": "",
+    "assigned_to": "Abhishek Khatri",
+    "assigned_date": "2025-06-18T06:16:23.157Z",
+    "original_estimate": 13.0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32751511"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-18T16:32:50.04Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33398952,
+    "title": "DummyUserStory",
+    "type": "User Story",
+    "current_state": "Removed",
+    "priority": 1,
+    "target_date": "2025-06-23T00:00:00Z",
+    "created_date": "2025-06-18T17:52:18.88Z",
+    "created_by": "Bhumika Gupta",
+    "description": "",
+    "assigned_to": "Bhumika Gupta",
+    "assigned_date": "2025-06-19T06:11:01.097Z",
+    "original_estimate": 45.0,
+    "remaining_work": 30.0,
+    "effort_time": 45.0,
+    "parents_link_added": [],
+    "child_links_added": [
+      "33398966"
+    ],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Removed",
+        "date": "2025-06-18T17:58:02.76Z"
+      }
+    ]
+  },
+  {
+    "id": 33398966,
+    "title": "DummyTask1",
+    "type": "Task",
+    "current_state": "Removed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-18T17:53:47.773Z",
+    "created_by": "Bhumika Gupta",
+    "description": "",
+    "assigned_to": "Bhumika Gupta",
+    "assigned_date": "9999-01-01T00:00:00Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "33398952"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Removed",
+        "date": "2025-06-19T06:01:18.517Z"
+      }
+    ]
+  },
+  {
+    "id": 33399840,
+    "title": "Dummytask2",
+    "type": "Task",
+    "current_state": "Removed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-18T18:55:31.523Z",
+    "created_by": "Bhumika Gupta",
+    "description": "",
+    "assigned_to": "Bhumika Gupta",
+    "assigned_date": "2025-06-18T18:55:43.09Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "33396245"
+    ],
+    "child_links_added": [],
+    "tags_added": [],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Removed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 33407547,
+    "title": "List types of connectors which need to blocked during runtime",
+    "type": "Task",
+    "current_state": "Closed",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-19T06:30:42.523Z",
+    "created_by": "Prashant Verma",
+    "description": "<div><span>ExternalAgents, MCP, AzureOpenAISearch, CustomModel ...</span><br> </div>",
+    "assigned_to": "Prashant Verma",
+    "assigned_date": "2025-06-19T06:33:34.907Z",
+    "original_estimate": 0,
+    "remaining_work": 0,
+    "effort_time": 0,
+    "parents_link_added": [
+      "32317403"
+    ],
+    "child_links_added": [],
+    "tags_added": [
+      "Jun2025"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-19T06:34:15.297Z"
+      },
+      {
+        "from": "Active",
+        "to": "Closed",
+        "date": "9999-01-01T00:00:00Z"
+      }
+    ],
+    "pull_requests": []
+  },
+  {
+    "id": 33472076,
+    "title": "Runtime block Phase 1 - Implementation (Block all design-time creds)",
+    "type": "Task",
+    "current_state": "Active",
+    "priority": 2,
+    "target_date": "N/A",
+    "created_date": "2025-06-23T16:46:11.82Z",
+    "created_by": "Prashant Verma",
+    "description": "",
+    "assigned_to": "Prashant Verma",
+    "assigned_date": "2025-06-23T16:46:35.74Z",
+    "original_estimate": 0,
+    "remaining_work": 30.0,
+    "effort_time": 30.0,
+    "parents_link_added": [
+      "32317403"
+    ],
+    "child_links_added": [],
+    "tags_added": [
+      "Jun2025"
+    ],
+    "comments_added": [],
+    "state_changes": [
+      {
+        "from": "New",
+        "to": "Active",
+        "date": "2025-06-23T16:47:32.717Z"
+      }
+    ]
+  }
+]

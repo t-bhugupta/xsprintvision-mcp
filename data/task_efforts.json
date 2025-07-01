@@ -1,0 +1,191 @@
+[
+  {
+    "id": 32751710,
+    "title": "Add validation in bot publish based on PPAC maker auth settings",
+    "original_estimate": 10.0,
+    "remaining_work": 10.0,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Bhargav Kansagara"
+  },
+  {
+    "id": 32965150,
+    "title": "Get PR merged for a single service for OTel logging",
+    "original_estimate": 16.0,
+    "remaining_work": null,
+    "completed_work": 12.0,
+    "state": "Closed",
+    "assigned_to": "Abhishek Khatri"
+  },
+  {
+    "id": 33105993,
+    "title": "[Power Policy] Onboarding privacy disclosure message rule set (frontend)",
+    "original_estimate": 3.0,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Lavisha Doda"
+  },
+  {
+    "id": 33111162,
+    "title": "Process Data Job TotalSessions INT",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "completed_work": 5.0,
+    "state": "Active",
+    "assigned_to": "Arpit Verma"
+  },
+  {
+    "id": 33111172,
+    "title": "Aggregate Data Job TotalSessions INT",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "completed_work": 5.0,
+    "state": "Active",
+    "assigned_to": "Arpit Verma"
+  },
+  {
+    "id": 33239270,
+    "title": "PVA Solution Callbacks (notification) on setting change is not working and causing failure in their deployment",
+    "original_estimate": 20.0,
+    "remaining_work": 10.0,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Bhargav Kansagara"
+  },
+  {
+    "id": 33256865,
+    "title": "Implementation: Use FE App Id to create trigger with OBO Auth",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": 12.0,
+    "state": "Closed",
+    "assigned_to": "Riya Arora"
+  },
+  {
+    "id": 33256867,
+    "title": "Implementation: Generate valid signature with private key",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Lavisha Doda"
+  },
+  {
+    "id": 33256868,
+    "title": "Implementation: Use BE App Id to invoke Controller API with S2S Auth",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Riya Arora"
+  },
+  {
+    "id": 33257016,
+    "title": "Explore Knowledge Sources in Code and Kusto Tables",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "New",
+    "assigned_to": "Amita Pradhan"
+  },
+  {
+    "id": 33257043,
+    "title": "Testing and Validating Telemetry logs in Dev environment",
+    "original_estimate": 13.0,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Abhishek Khatri"
+  },
+  {
+    "id": 33257067,
+    "title": "Review Design doc for MCS Stored Credentials",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Prashant Verma"
+  },
+  {
+    "id": 33337748,
+    "title": "Spike: Pipeline for regression tests",
+    "original_estimate": null,
+    "remaining_work": 12.0,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Riya Arora"
+  },
+  {
+    "id": 33337754,
+    "title": "Discuss with stakeholders and finalize on the runtime block approach",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Prashant Verma"
+  },
+  {
+    "id": 33337765,
+    "title": "Process Data Job - Active Users - [Blue Path] INT",
+    "original_estimate": 10.0,
+    "remaining_work": 3.0,
+    "completed_work": 5.0,
+    "state": "Active",
+    "assigned_to": "Arpit Verma"
+  },
+  {
+    "id": 33337780,
+    "title": "Source Stream Extension Jobs - Active Users [Blue Path] INT",
+    "original_estimate": 10.0,
+    "remaining_work": 5.0,
+    "completed_work": 5.0,
+    "state": "Active",
+    "assigned_to": "Arpit Verma"
+  },
+  {
+    "id": 33391453,
+    "title": "Fixing Unit Test failure Pipeline Bug in PR pipeline",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Abhishek Khatri"
+  },
+  {
+    "id": 33391457,
+    "title": "Verifying OTelemetry logs in IDev environment",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Abhishek Khatri"
+  },
+  {
+    "id": 33391459,
+    "title": "Verifyin OTel logs scenarios in INT environment",
+    "original_estimate": 13.0,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Abhishek Khatri"
+  },
+  {
+    "id": 33407547,
+    "title": "List types of connectors which need to blocked during runtime",
+    "original_estimate": null,
+    "remaining_work": null,
+    "completed_work": null,
+    "state": "Closed",
+    "assigned_to": "Prashant Verma"
+  },
+  {
+    "id": 33472076,
+    "title": "Runtime block Phase 1 - Implementation (Block all design-time creds)",
+    "original_estimate": null,
+    "remaining_work": 30.0,
+    "completed_work": null,
+    "state": "Active",
+    "assigned_to": "Prashant Verma"
+  }
+]

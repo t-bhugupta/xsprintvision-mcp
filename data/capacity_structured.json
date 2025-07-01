@@ -1,0 +1,215 @@
+{
+  "totalWorkingDays": 10,
+  "users": [
+    {
+      "name": "Graham Mosley",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Katy Shatsov",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Eden Tanami",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Eran Shamir",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Manu Sreenivasan",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Shlomi Yosef",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Prashant Verma",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Shon Pazarker",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Abhishek Khatri",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Lavisha Doda",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 4
+    },
+    {
+      "name": "Riya Arora",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 3
+    },
+    {
+      "name": "Bhargav Kansagara",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Arpit Verma",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Amita Pradhan",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Al Omar Rajawat",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Roni Milner",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Kobi Barac",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Maya Shauli",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Ofer Papirovitz",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Malek Jabareen",
+      "capacityPerDay": [
+        {
+          "activity": "",
+          "capacityPerDay": 0.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    },
+    {
+      "name": "Pradyum Bansal",
+      "capacityPerDay": [
+        {
+          "activity": "Development",
+          "capacityPerDay": 6.0
+        }
+      ],
+      "numberOfDaysOff": 0
+    }
+  ]
+}
